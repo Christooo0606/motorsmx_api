@@ -21,6 +21,8 @@ Route::get('/users/{id}', 'App\Http\Controllers\UserController@show');
 Route::put('/users/{id}', 'App\Http\Controllers\UserController@update');
 Route::delete('/users/{id}', 'App\Http\Controllers\UserController@destroy');
 
+
+
 // Routes for Product CRUD operations
 Route::get('/products', 'App\Http\Controllers\ProductController@index');
 Route::post('/products', 'App\Http\Controllers\ProductController@store');
